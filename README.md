@@ -6,9 +6,9 @@
 ![Solution image](./assets/images/solution.png)
 
 ### 🔗 Project Links
-Solution: [Open](https://www.frontendmentor.io/solutions/used-html5-css3grid-google-font-vars-and-aria-for-accessibility-h8Hc-YXhw1)
+Solution: [Open](https://www.frontendmentor.io/solutions/html5-css3-grid-google-font-vars-focus-and-aria-for-accessibility-PEbCk27pNZ)
 
-Live Site: [Open](https://gleaming-cocada-5b6140.netlify.app/)
+Live Site: [Open](https://elaborate-froyo-32c21a.netlify.app/)
 
 ### ✍ My Process
 
