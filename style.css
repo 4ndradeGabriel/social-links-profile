@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --clr-primary: #c5f82a;
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-grey: #333333;
+    --clr-dark-grey: #1f1f1f;
+    --clr-black: #141414;
+    --ff: "Inter", sans-serif;
+    --fs-body: .875rem;
+    --fs-heading: 1.75rem;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: var(--ff);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-body);
+    color: var(--clr-white);
+    background-color: var(--clr-black); 
+}
+
+.profile-container {
+    background-color: var(--clr-dark-grey);
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 90vh;
+    text-align: center;
+    border-radius: .75rem;
+}
+
+.profile-container .user-img {
+    margin-bottom: .5rem;
+    width: 6rem;
+    border-radius: 50%;
+ }
+
+ .profile-container .username {
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-600);
+
+}
+
+.profile-container .user-location {
+    color: var(--clr-primary);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-600);
+    margin: .5rem 0 1.5rem;
+}
+
+.profile-container .social-links {
+    margin-top: 1.75rem;
+}
+ul li {
+    list-style-type: none;
+}
+
+.profile-container .social-links li:not(:last-child) {
+    margin-bottom: 1rem;
+
+}
+
+.profile-container .social-links .link-item {
+    display: block;
+    color: var(--clr-white);
+    background-color: var(--clr-grey);
+    font-weight: var(--fw-700);
+    padding: .75rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    transition: background .3s ease, color .3s ease;
+}
+
+.profile-container .social-links .link-item:hover {
+    background: var(--clr-primary);
+    color: var(--clr-black);
+}
+
+.profile-container .social-links .link-item:focus {
+    outline: 2px solid var(--clr-primary);
+    outline-offset: 2px;
+}
+
+/* .attribution {
+    font-size: 0.75rem;
+    color: var(--clr-white);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.attribution a {
+    color: #c5f82a;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #769A09;
+} */
